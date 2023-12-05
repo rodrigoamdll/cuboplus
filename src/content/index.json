@@ -1,0 +1,28 @@
+{
+    "en": {
+        "header": "Building the future of El Salvador",
+        "summary": ["Applicants", "Mentors", "Hours of classes", "Cubo+ students", "Cubo+ graduates", "Alliances"],
+        "mission": ["Our mission", "CUBO+ Educational Program is an initiative designed by and for  Salvadorans, aimed at training the upcoming generation of Salvadoran programmers. These students were equipped with the skills and knowledge needed to shape the future of Bitcoin adoption and develop innovative solutions that would drive economic growth within the local community.", "We are descovering for the brightest and most entrepreneurial minds that contribute to the technological and economic future of El Salvador."],
+        "testimonialssection": ["Words from others", "It's not just us", "Discover what others are sharing about us!"],
+        "testimonials": [{
+            "name": "Stacy Herbert",
+            "handle": "@stacyherbert",
+            "role": "Bitocin Office Head",
+            "content": "CUBO+ aims for excellence. Nothing less. That’s just one of the reasons why El Salvador is winning so big 🏆🇸🇻🚀"
+        }],
+        "contact": ["Send us a message!", "Do you have a question or want to support the program? Contact us and we'll be in touch!"]
+    },
+    "es": {
+        "header": "Construyendo el futuro de El Salvador",
+        "summary": ["Aplicantes", "Profesores", "Horas de clases", "Estudiantes", "Graduados", "Alianzas"],
+        "mission": ["Nuestra misión", "El programa educativo CUBO+ es una iniciativa diseñada por y para  Salvadoreños, orientado en capacitar a la siguiente generación de programadores Salvadoreños. Estos estudiantes fueron equipados con las habilidades y conocimientos necesarios para para darle forma a el futuro de la adopción de Bitcoin y así desarrollar soluciones innovadoras que contribuirán al crecimiento económico dentro de las comunidades locales.", "Estamos descubriendo a las más brillantes y visionarias mentes que contribuirán al futuro tecnológico y económico de El Salvador."],
+        "testimonialssection": ["Testimonios de otras personas", "No estamos solos", "Descubre lo que los demás comparten acerca de nosotros!"],
+        "testimonials": [{
+            "name": "Stacy Herbert",
+            "handle": "@stacyherbert",
+            "role": "Bitocin Office Head",
+            "content": "CUBO+ aspira a la excelencia, nada menos.  Esa es una de las razones por las que El Salvador está ganando fuertemente 🏆🇸🇻🚀"
+        }],
+        "contact": ["¡Envíanos un mensaje!", "¿Tienes alguna pregunta o estás interesado en apoyar el programa? ¡Contáctanos y estaremos en comunicación!"]
+    }
+}
