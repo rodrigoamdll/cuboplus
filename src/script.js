@@ -67,8 +67,13 @@ function setElementsNavbarAndFooter(content) {
   document.getElementById("rights").innerHTML = content.footer[3];
 }
 
-
+//function to set the 
 async function changeLanguage(page, language, callback) {
+  //validates localStorage is not already settled before with a language non-declarated
+  //language == "en" || "es"
+  //if NOT language = "en"
+  if (language != "en" && language != "es") language = "en";
+
   localStorage.setItem("language", language);
 
   const response = await fetch(`./content/${page}-${language}.json`);

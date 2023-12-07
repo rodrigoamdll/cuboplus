@@ -6,26 +6,26 @@
     "mission": ["Our mission", "CUBO+ Educational Program is an initiative designed by and for  Salvadorans, aimed at training the upcoming generation of Salvadoran programmers. These students were equipped with the skills and knowledge needed to shape the future of Bitcoin adoption and develop innovative solutions that would drive economic growth within the local community.", "We are descovering for the brightest and most entrepreneurial minds that contribute to the technological and economic future of El Salvador."],
     "testimonialssection": ["Words from others", "It's not just us", "Discover what others are sharing about us!"],
     "testimonials": [{
-        "img": "img/jbExO_A2_400x400.jpg",
-        "href": "https://twitter.com/stacyherbert/status/1672253280469286913",
-        "name": "Stacy Herbert",
-        "handle": "@stacyherbert",
-        "role": "Bitocin Office Head",
-        "content": "CUBO+ aims for excellence. Nothing less. That's just one of the reasons why El Salvador is winning so big 🏆🇸🇻🚀"
+        "img": "img/PjodJZ53_400x400 (1).jpg",
+        "href": "https://twitter.com/bitcoinofficesv/status/1716122785087660523",
+        "name": "The Bitcoin Office",
+        "handle": "@bitcoinofficesv",
+        "role": "Presidential Bitcoin Office",
+        "content": "For the past two weeks, some of El Salvador's elite Bitcoin and Lightning devs students of @cuboplus had the opportunity to travel to italy for further advanced technical education with @FulgurVentures <br /><br /> And then they attended @LuganoPlanB in Switzerlad <br /><br /> 🇸🇻 🇮🇹 🇨🇭 <img src='./img/F9DkkUJa0AAfppZ.jpg'>"
     }, {
         "img": "img/jbExO_A2_400x400.jpg",
-        "href": "https://twitter.com/stacyherbert/status/1672253280469286913",
+        "href": "https://twitter.com/stacyherbert/status/1705761660806344859",
         "name": "Stacy Herbert",
         "handle": "@stacyherbert",
         "role": "Bitocin Office Head",
-        "content": "CUBO+ aims for excellence. Nothing less. That's just one of the reasons why El Salvador is winning so big 🏆🇸🇻🚀"
+        "content": "El Salvador's @cuboplus students answer President Bukele's call: <br /><br />\"I want to call upon all Salvadorans: We must rise to the occasion of this moment in our history . . . Now we can be in the front row, or even teaching the class\". <br /><br /> A student teaching the class 👇🇸🇻📙🚀 <br /><br /> <img src='./img/F6wUn_UXwAARkAw.jpg'>"
     }, {
-        "img": "img/jbExO_A2_400x400.jpg",
-        "href": "https://twitter.com/stacyherbert/status/1672253280469286913",
-        "name": "Stacy Herbert",
-        "handle": "@stacyherbert",
-        "role": "Bitocin Office Head",
-        "content": "CUBO+ aims for excellence. Nothing less. That's just one of the reasons why El Salvador is winning so big 🏆🇸🇻🚀"
+        "img": "img/Invedmre_400x400.jpg",
+        "href": "https://twitter.com/DecouvreBitcoin/status/1681826059270909953",
+        "name": "Découvre Bitcoin",
+        "handle": "@DecouvreBitcoin",
+        "role": "Bitcoin Educational Company",
+        "content": "Good-buy El Salvador 🇸🇻 <br /><br /> Thanks for this incredible trip filled with discovery and joy. Everytime I come back the countries keep improving: road, education, safety, freedom. <br /><br /> Here everything is possible and the @cuboplus initiative is just the beginning of something massive 🚀 <br /><br /> <img src='./img/F1cL417WAAYCkvv.jpg'>"
     }],
     "contact": ["Send us a message!", "Do you have a question or want to support the program? Contact us and we'll be in touch!"]
 }
