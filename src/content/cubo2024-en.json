@@ -1,6 +1,4 @@
 {
-    "navbar": ["About us", "Program 2023", "Documentary", "Our journey", "Alliances", "Sponsors", "Cubo+ 2024"],
-    "footer": ["CONTACT US", "FOLLOW US", "USEFUL LINKS", "© 2023 cuboplus™. All Rights Reserved."],
     "header": {
         "title": "How does it work?",
         "steps": ["Apply", "Learn hard", "Graduate", "Contribute"],

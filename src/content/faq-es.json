@@ -1,6 +1,4 @@
 {
-    "navbar": ["Sobre nosotros", "Programa 2023", "Documental", "Nuestro viaje", "Alianzas", "Patrocinadores", "Cubo+ 2024"],
-    "footer": ["CONTÁCTANOS", "SÍGUENOS", "LINKS ÚTILES", "© 2023 cuboplus™. Todos los derechos reservados."],
     "title": "PREGUNTAS FRECUENTES",
     "description": "Algunás preguntas clave que puedas tener sobre cubo+, si hay alguna pregunta importante faltando puedes hacernoslo saber por medio del formulario de contacto en Sobre nosotros o por medio de correo electrónico a info@cuboplus.dev",
     "questions" : [

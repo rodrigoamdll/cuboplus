@@ -75,11 +75,11 @@ async function changeLanguage(page, language, callback) {
   if (language != "en" && language != "es") language = "en";
 
   localStorage.setItem("language", language);
-
+  const layoutRes = await fetch(`./content/layout-${language}.json`)
+  const layout = await layoutRes.json();
   const response = await fetch(`./content/${page}-${language}.json`);
   const content = await response.json();
-
-  setElementsNavbarAndFooter(content);
-
+  
+  setElementsNavbarAndFooter(layout);
   callback(content);
 }
