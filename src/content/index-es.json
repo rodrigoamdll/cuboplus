@@ -1,0 +1,32 @@
+{
+    "navbar": ["Sobre nosotros", "Programa 2023", "Documental", "Nuestro viaje", "Alianzas", "Patrocinadores", "Cubo+ 2024"],
+    "footer": ["CONTÁCTANOS", "SÍGUENOS", "LINKS ÚTILES", "© 2023 cuboplus™. Todos los derechos reservados."],
+    "header": "Construyendo el futuro <br /><span>de El Salvador</span>",
+    "summary": ["Aplicantes", "Profesores", "Horas de clases", "Estudiantes", "Graduados", "Alianzas"],
+    "mission": ["Nuestra misión", "El programa educativo CUBO+ es una iniciativa diseñada por y para  Salvadoreños, orientado en capacitar a la siguiente generación de programadores Salvadoreños. Estos estudiantes fueron equipados con las habilidades y conocimientos necesarios para para darle forma a el futuro de la adopción de Bitcoin y así desarrollar soluciones innovadoras que contribuirán al crecimiento económico dentro de las comunidades locales.", "Estamos descubriendo a las más brillantes y visionarias mentes que contribuirán al futuro tecnológico y económico de El Salvador."],
+    "testimonialssection": ["Testimonios de otras personas", "No estamos solos", "Descubre lo que los demás comparten acerca de nosotros!"],
+    "testimonials": [{
+        "img": "img/jbExO_A2_400x400.jpg",
+        "href": "https://twitter.com/stacyherbert/status/1672253280469286913",
+        "name": "Stacy Herbert",
+        "handle": "@stacyherbert",
+        "role": "Jefa de la Oficina del Bitcoin",
+        "content": "CUBO+ aspira a la excelencia, nada menos.  Esa es una de las razones por las que El Salvador está ganando fuertemente 🏆🇸🇻🚀"
+        }, {
+        "img": "img/jbExO_A2_400x400.jpg",
+        "href": "https://twitter.com/stacyherbert/status/1672253280469286913",
+        "name": "Stacy Herbert",
+        "handle": "@stacyherbert",
+        "role": "Jefa de la Oficina del Bitcoin",
+        "content": "CUBO+ aspira a la excelencia, nada menos.  Esa es una de las razones por las que El Salvador está ganando fuertemente 🏆🇸🇻🚀"
+        }, {
+        "img": "img/jbExO_A2_400x400.jpg",
+        "href": "https://twitter.com/stacyherbert/status/1672253280469286913",
+        "name": "Stacy Herbert",
+        "handle": "@stacyherbert",
+        "role": "Jefa de la Oficina del Bitcoin",
+        "content": "CUBO+ aspira a la excelencia, nada menos.  Esa es una de las razones por las que El Salvador está ganando fuertemente 🏆🇸🇻🚀"
+        }],
+        "contact": ["¡Envíanos un mensaje!", "¿Tienes alguna pregunta o estás interesado en apoyar el programa? ¡Contáctanos y estaremos en comunicación!"]
+        
+}

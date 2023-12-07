@@ -1,0 +1,31 @@
+{
+    "navbar": ["About us", "Program 2023", "Documentary", "Our journey", "Alliances", "Sponsors", "Cubo+ 2024"],
+    "footer": ["CONTACT US", "FOLLOW US", "USEFUL LINKS", "© 2023 cuboplus™. All Rights Reserved."],
+    "header": "Building the future <br /><span>of El Salvador</span>",
+    "summary": ["Applicants", "Mentors", "Hours of classes", "Cubo+ students", "Cubo+ graduates", "Alliances"],
+    "mission": ["Our mission", "CUBO+ Educational Program is an initiative designed by and for  Salvadorans, aimed at training the upcoming generation of Salvadoran programmers. These students were equipped with the skills and knowledge needed to shape the future of Bitcoin adoption and develop innovative solutions that would drive economic growth within the local community.", "We are descovering for the brightest and most entrepreneurial minds that contribute to the technological and economic future of El Salvador."],
+    "testimonialssection": ["Words from others", "It's not just us", "Discover what others are sharing about us!"],
+    "testimonials": [{
+        "img": "img/jbExO_A2_400x400.jpg",
+        "href": "https://twitter.com/stacyherbert/status/1672253280469286913",
+        "name": "Stacy Herbert",
+        "handle": "@stacyherbert",
+        "role": "Bitocin Office Head",
+        "content": "CUBO+ aims for excellence. Nothing less. That's just one of the reasons why El Salvador is winning so big 🏆🇸🇻🚀"
+    }, {
+        "img": "img/jbExO_A2_400x400.jpg",
+        "href": "https://twitter.com/stacyherbert/status/1672253280469286913",
+        "name": "Stacy Herbert",
+        "handle": "@stacyherbert",
+        "role": "Bitocin Office Head",
+        "content": "CUBO+ aims for excellence. Nothing less. That's just one of the reasons why El Salvador is winning so big 🏆🇸🇻🚀"
+    }, {
+        "img": "img/jbExO_A2_400x400.jpg",
+        "href": "https://twitter.com/stacyherbert/status/1672253280469286913",
+        "name": "Stacy Herbert",
+        "handle": "@stacyherbert",
+        "role": "Bitocin Office Head",
+        "content": "CUBO+ aims for excellence. Nothing less. That's just one of the reasons why El Salvador is winning so big 🏆🇸🇻🚀"
+    }],
+    "contact": ["Send us a message!", "Do you have a question or want to support the program? Contact us and we'll be in touch!"]
+}
