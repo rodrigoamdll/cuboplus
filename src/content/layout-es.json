@@ -1,4 +1,4 @@
 {
-    "navbar": ["Sobre nosotros", "Programa 2023 <svg class=\"w-2.5 h-2.5 ms-3\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 10 6\"> <path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m1 1 4 4 4-4\" /></svg>", "Documental", "Nuestro viaje", "Alianzas", "Patrocinadores", "Cubo+ 2024"],
+    "navbar": ["Sobre nosotros", "Programa 2023", "Patrocinadores"],
     "footer": ["CONTÁCTANOS", "SÍGUENOS", "LINKS ÚTILES", "© 2023 cuboplus™. Todos los derechos reservados."]
 }

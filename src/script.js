@@ -56,11 +56,8 @@ var enButton = document.getElementById("en-button");
 
 function setElementsNavbarAndFooter(content) {
   document.getElementById("about").innerHTML = content.navbar[0];
-  document.getElementById("dropdownNavbarLink").innerHTML = content.navbar[1];
-  document.getElementById("documentary").innerHTML = content.navbar[2];
-  document.getElementById("journey").innerHTML = content.navbar[3];
-  document.getElementById("alliances").innerHTML = content.navbar[4];
-  document.getElementById("sponsors").innerHTML = content.navbar[5];
+  document.getElementById("program").innerHTML = content.navbar[1];
+  document.getElementById("sponsors").innerHTML = content.navbar[2];
   document.getElementById("contact").innerHTML = content.footer[0];
   document.getElementById("follow").innerHTML = content.footer[1];
   document.getElementById("links").innerHTML = content.footer[2];
