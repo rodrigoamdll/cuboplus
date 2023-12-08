@@ -59,12 +59,45 @@
     <nav class="bg-white border-gray-200 dark:bg-gray-900">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
-                <img src="img/logocuboplus.png" class="h-16" alt="cubo+ logo" />
+                <img src="img/logocuboplus.png" class="h-16" alt="Flowbite Logo" />
                 <span
                     class="font-[Fjalla One] hidden text-[#005eb8] font-bold lg:inline-block text-lg ml-2 ">CUBO+</span>
             </a>
 
             <div class="flex gap-2 md:order-2">
+                <!-- Dark mode switcher -->
+                <button id="language-toggle" type="button" data-dropdown-toggle="dropdownUsers"
+                    class="text-gray-500  hover:bg-blue-100 focus:outline-none focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
+                    </svg>
+
+                </button>
+                <!-- Dropdown menu -->
+                <div id="dropdownUsers" class="z-10 hidden bg-white rounded-lg shadow w-60 dark:bg-gray-700">
+                    <ul class="h-24 py-2 overflow-y-auto text-gray-700 dark:text-gray-200"
+                        aria-labelledby="dropdownUsersButton">
+                        <li>
+                            <a href="#"
+                                class="flex items-center px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
+                                <img class="w-5 h-5 me-2 rounded-full" src="../src/img/spain.png" alt="Jese image">
+                                Español
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="flex items-center px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
+                                <img class="w-5 h-5 me-2 rounded-full" src="../src/img/united-kingdom.png"
+                                    alt="Jese image">
+                                Ingles
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Dark mode switcher end -->
+
                 <!-- Dark mode switcher -->
                 <button id="theme-toggle" type="button"
                     class="text-gray-500  hover:bg-blue-100 focus:outline-none focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5">
@@ -105,7 +138,8 @@
                     </li>
                     <li>
                         <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar"
-                            class="flex items-center justify-between w-full \block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent hover:text-gray-900 md:border-0 md:hover:text-orange-500 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Program 2023
+                            class="flex items-center justify-between w-full \block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent hover:text-gray-900 md:border-0 md:hover:text-orange-500 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Program
+                            2023
                             <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                                 fill="none" viewBox="0 0 10 6">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -122,7 +156,8 @@
                                 </li>
                                 <li>
                                     <a href="#"
-                                        class="block px-4 py-2 hover:text-orange-400  dark:hover:text-blue-400">Our journey</a>
+                                        class="block px-4 py-2 hover:text-orange-400  dark:hover:text-blue-400">Our
+                                        journey</a>
                                 </li>
                                 <li>
                                     <a href="#"
@@ -133,57 +168,18 @@
                     </li>
 
                     <li>
-                        <a href="./pages/sponsors.html"
+                        <a href="sponsors.html"
                             class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent hover:text-gray-900 md:border-0 md:hover:text-orange-500 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Sponsors</a>
                     </li>
                     <li>
-                        <a href="#"
-                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent hover:text-gray-900 md:border-0 md:hover:text-orange-500 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">FAQ</a>
-                    </li>
-
-                    <li class=" block py-2 px-3 md:p-0">
-
-                        <button id="dropdownAvatarNameButton" data-dropdown-toggle="dropdownAvatarName"
-                            class="flex items-center  pe-1 font-medium text-gray-900 rounded-full hover:text-blue-600 dark:hover:text-blue-500 md:me-0 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:text-white"
-                            type="button">
-                            <span class="sr-only">Open user menu</span>
-
-                            Language
-                            <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                                fill="none" viewBox="0 0 10 6">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="2" d="m1 1 4 4 4-4" />
-                            </svg>
-                        </button>
-
-                        <!-- Dropdown menu -->
-                        <div id="dropdownAvatarName"
-                            class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
-                            <div class="px-4 py-3 text-sm text-gray-900 dark:text-white">
-                                <div class="font-medium ">Select</div>
-                            </div>
-                            <ul class="py-2 text-sm text-gray-700 dark:text-gray-200"
-                                aria-labelledby="dropdownInformdropdownAvatarNameButtonationButton">
-                                <li class="flex py-2">
-                                    <img src="img/united-kingdom.png" class="h-8 px-2" alt="">
-                                    <a href="#"
-                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">English</a>
-                                </li>
-                                <li class="flex py-2">
-                                    <img src="img/spain.png" class="h-8 px-2" alt="">
-                                    <a href="#"
-                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Spanish</a>
-                                </li>
-
-                            </ul>
-                        </div>
-
+                        <button type="button"
+                            class="px-3 py-1 text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300  shadow-lg shadow-red-500/50 dark:shadow-lg  font-medium rounded-lg text-sm text-center me-2 mb-2 dark:from-blue-500 dark:via-blue-600 dark:to-blue-700 dark:focus:ring-blue-800 dark:shadow-blue-800/80">Cubo+
+                            2024</button>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-
 
     <!-- Section: Design Block -->
     <section class="mb-40">
@@ -252,7 +248,7 @@
 
         </section>
 
-        <section class="bg-white dark:bg-slate-800">
+        <section class="bg-white dark:bg-blue-900">
             <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
                 <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
                     <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-orange-400 dark:text-white">Our Mission
@@ -271,7 +267,7 @@
             </div>
         </section>
 
-        <section id="testimonies" class="py-20 bg-orange-400 dark:bg-slate-900">
+        <section id="testimonies" class="py-20 bg-orange-400 dark:bg-blue-950">
             <div class="max-w-6xl mx-8 md:mx-10 lg:mx-20 xl:mx-auto">
 
 
@@ -279,7 +275,7 @@
                     class="transition duration-500 ease-in-out transform scale-100 translate-x-0 translate-y-0 opacity-100">
                     <div class="mb-12 space-y-5 md:mb-16 md:text-center">
                         <div
-                            class="inline-block px-3 py-1 text-sm font-semibold text-indigo-100 rounded-lg md:text-center text-cn  bg-orange-700 dark:bg-[#202c47] bg-opacity-60 hover:cursor-pointer hover:bg-opacity-40">
+                            class="inline-block px-3 py-1 text-sm font-semibold text-indigo-100 rounded-lg md:text-center text-cn  bg-orange-700 dark:bg-[#202147] bg-opacity-60 hover:cursor-pointer hover:bg-opacity-40">
                             Words from Others
                         </div>
                         <h1 class="mb-5 text-3xl font-semibold text-white md:text-center md:text-5xl">
@@ -306,7 +302,7 @@
                                                 class="w-12 h-12 bg-center bg-cover border rounded-full"
                                                 alt="Kanye West">
                                             <div>
-                                                <h3 class="text-lg font-semibold  text-blue-900 dark:text-white"><i
+                                                <h3 class="text-lg font-semibold  text-blue-800 dark:text-white"><i
                                                         class="fa-brands fa-twitter"></i> Stacy Herbert</h3>
                                                 <p class="text-gray-500 text-md">@stacyherbert</p>
                                                 <p class="text-gray-500 text-md mt-2">Bitcoin Office Head</p>
@@ -337,7 +333,7 @@
                                                 class="w-12 h-12 bg-center bg-cover border rounded-full"
                                                 alt="Kanye West">
                                             <div>
-                                                <h3 class="text-lg font-semibold  text-blue-900 dark:text-white"><i
+                                                <h3 class="text-lg font-semibold  text-blue-800 dark:text-white"><i
                                                         class="fa-brands fa-twitter"></i> Stacy Herbert</h3>
                                                 <p class="text-gray-500 text-md">@stacyherbert</p>
                                                 <p class="text-gray-500 text-md mt-2">Bitcoin Office Head</p>
@@ -368,7 +364,7 @@
                                                 class="w-12 h-12 bg-center bg-cover border rounded-full"
                                                 alt="Kanye West">
                                             <div>
-                                                <h3 class="text-lg font-semibold  text-blue-900 dark:text-white"><i
+                                                <h3 class="text-lg font-semibold  text-blue-800 dark:text-white"><i
                                                         class="fa-brands fa-twitter"></i> Stacy Herbert</h3>
                                                 <p class="text-gray-500 text-md">@stacyherbert</p>
                                                 <p class="text-gray-500 text-md mt-2">Bitcoin Office Head</p>
