@@ -50,3 +50,36 @@ var themeToggleDarkIcon = document.getElementById(
       }
     }
   });
+
+var esButton = document.getElementById("es-button");
+var enButton = document.getElementById("en-button");
+
+function setElementsNavbarAndFooter(content) {
+  document.getElementById("about").innerHTML = content.navbar[0];
+  document.getElementById("dropdownNavbarLink").innerHTML = content.navbar[1];
+  document.getElementById("documentary").innerHTML = content.navbar[2];
+  document.getElementById("journey").innerHTML = content.navbar[3];
+  document.getElementById("alliances").innerHTML = content.navbar[4];
+  document.getElementById("sponsors").innerHTML = content.navbar[5];
+  document.getElementById("contact").innerHTML = content.footer[0];
+  document.getElementById("follow").innerHTML = content.footer[1];
+  document.getElementById("links").innerHTML = content.footer[2];
+  document.getElementById("rights").innerHTML = content.footer[3];
+}
+
+//function to set the 
+async function changeLanguage(page, language, callback) {
+  //validates localStorage is not already settled before with a language non-declarated
+  //language == "en" || "es"
+  //if NOT language = "en"
+  if (language != "en" && language != "es") language = "en";
+
+  localStorage.setItem("language", language);
+  const layoutRes = await fetch(`./content/layout-${language}.json`)
+  const layout = await layoutRes.json();
+  const response = await fetch(`./content/${page}-${language}.json`);
+  const content = await response.json();
+  
+  setElementsNavbarAndFooter(layout);
+  callback(content);
+}

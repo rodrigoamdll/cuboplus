@@ -1,0 +1,30 @@
+{
+    "header": "Construyendo el futuro <br /><span>de El Salvador</span>",
+    "summary": ["Aplicantes", "Profesores", "Horas de clases", "Estudiantes", "Graduados", "Alianzas"],
+    "mission": ["Nuestra misión", "El programa educativo CUBO+ es una iniciativa diseñada por y para  Salvadoreños, orientado en capacitar a la siguiente generación de programadores Salvadoreños. Estos estudiantes fueron equipados con las habilidades y conocimientos necesarios para para darle forma a el futuro de la adopción de Bitcoin y así desarrollar soluciones innovadoras que contribuirán al crecimiento económico dentro de las comunidades locales.", "Estamos descubriendo a las más brillantes y visionarias mentes que contribuirán al futuro tecnológico y económico de El Salvador."],
+    "testimonialssection": ["Testimonios de otras personas", "No estamos solos", "Descubre lo que los demás comparten acerca de nosotros!"],
+    "testimonials": [{
+        "img": "img/PjodJZ53_400x400 (1).jpg",
+        "href": "https://twitter.com/bitcoinofficesv/status/1716122785087660523",
+        "name": "The Bitcoin Office",
+        "handle": "@bitcoinofficesv",
+        "role": "Presidential Bitcoin Office",
+        "content": "Durante las pasadas dos semanas, algunos de los estudiantes sálvadoreños de Bitcoin y Lightning de @cuboplus tuvieron la oportunidad de viajar a italia para mayor conocimiento técnico y educación con @FulgurVentures <br /><br /> Y luego atendierón @LuganoPlanB en Suiza <br /><br /> 🇸🇻 🇮🇹 🇨🇭 <img src='./img/F9DkkUJa0AAfppZ.jpg'>"
+    }, {
+            "img": "img/jbExO_A2_400x400.jpg",
+            "href": "https://twitter.com/stacyherbert/status/1705761660806344859",
+            "name": "Stacy Herbert",
+            "handle": "@stacyherbert",
+            "role": "Jefa de la Oficina del Bitcoin",
+            "content": "Los estudiantes Sálvadoreños de @cuboplus responden al llamado del Presidente Bukele: <br /><br />\"Quiero hacer un llamado a todos los salvadoreños: debemos estar a la altura de este momento de nuestra historia... Ahora podemos estar en primera fila, o incluso dar la clase\". <br /><br /> Un alumno impartiendo clase 👇🇸🇻📙🚀 <br /><br /> <img src='./img/F6wUn_UXwAARkAw.jpg'>"
+        }, {
+            "img": "img/Invedmre_400x400.jpg",
+            "href": "https://twitter.com/DecouvreBitcoin/status/1681826059270909953",
+            "name": "Découvre Bitcoin",
+            "handle": "@DecouvreBitcoin",
+            "role": "Bitcoin Educational Company",
+            "content": "Adiós El Salvador 🇸🇻 <br /><br /> Gracias por este increíble viaje lleno de descubrimientos y gozo. Cada vez que vuelvo al país se mantiene en mejora: carretera, educación, seguridad, libertad. <br /><br /> Aquí todo es posible y la iniciativa @cuboplus es sólo el comienzo de algo másivo 🚀 <br /><br /> <img src='./img/F1cL417WAAYCkvv.jpg'>"
+        }],
+        "contact": ["¡Envíanos un mensaje!", "¿Tienes alguna pregunta o estás interesado en apoyar el programa? ¡Contáctanos y estaremos en comunicación!"]
+        
+}
