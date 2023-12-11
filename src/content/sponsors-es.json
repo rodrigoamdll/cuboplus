@@ -1,5 +1,5 @@
 {
-    "header": ["Cubo+ es", "MÁS QUE SOLO CLASES"],
-    "sponsors": ["NUESTROS PATROCINADORES", "Cubo+ es el producto de colaboración entre"],
-    "links": ["@bitcoinofficesv", "@FulgurVentures", "www.fulgur.ventures"]
+    "titles": ["Nuestros patrocinadores", "Nuestras alianzas"],
+    "descriptions": ["Por medio de su compromiso en educación e innovación, oficina del Bitcoin en El Salvador y Fulgur Ventures han forjado el camino para jóvenes salvadoreños talentosos quienes se volverán la siguiente generación de desarrolladores en tecnologías Bitcoin y Lightning Network.", "El equipo de cubo+ agradece a nuestros aliados por haber formado parte de este proyecto y por permitir a nuestros estudiantes ganar experiencia en sus compañías."]
+
 }
