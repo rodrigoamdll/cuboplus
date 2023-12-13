@@ -1946,6 +1946,11 @@ video {
     line-height: 1.25rem;
   }
 
+  .md\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
   .md\:font-semibold {
     font-weight: 600;
   }
